@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         recyclerView =findViewById(R.id.recyclerView)
-        btn
+
         callApi()
     }
 
