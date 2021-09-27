@@ -7,5 +7,5 @@ import retrofit2.http.Query
 
 interface ApiService {
     @GET("/search?term=[from search view]")
-    fun getPosts(@Query("term") term: String): Call<ResponseDTO>;
+    fun getPosts(@Query("term") term: Int): Call<ResponseDTO>
 }

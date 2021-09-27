@@ -6,7 +6,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class Network {
-    class Network {
+
         companion object {
 
             private val httpLoggingInterceptor =
@@ -20,4 +20,3 @@ class Network {
             }
         }
     }
-}
